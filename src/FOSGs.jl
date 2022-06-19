@@ -1,5 +1,12 @@
 module FOSGs
 
-# Write your package code here.
+include("FOSG.jl")
+
+export
+    FOSG,
+    initialstate,
+    actions,
+    transition,
+    observation
 
 end
